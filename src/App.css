@@ -6,7 +6,124 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+ .row{
+  display: flex;
+  flex-wrap: wrap ;
+}
+.col-3{
+  width:25%;
+  padding:0px 15px;
+}
+.card{
+  border: 2px solid #61dafb;
+  width:100%;
+  background-color: darksalmon;
+  max-width: 300px;
+  margin: auto;
+  margin:2%;
+}
+.viewbtn{
+  background-color: #61dafb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:10px;
+  letter-spacing: 1px;
+  margin-right: 10%;
+}
+.Detailbtn{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:10px;
+}
+.Detailbtn:hover{
+  background-color: aquamarine;
+}
+.viewbtn:hover{
+  background-color: chartreuse;
+}
+a{
+  text-decoration: none;
+}
+.a1{
+  background-color:blue; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+  
+}
+.a1:hover{
+  background-color: aqua;
+}
+.a2{
+  background-color:cyan; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+}
+.a2:hover{
+  background-color: blue;
+}
+.a3{
+  background-color:#61dafb; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+}
+.a3:hover{
+  background-color: darkblue;
+}
+.a4{
+  background-color:#4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:50px;
+}
+.a4:hover{
+  background-color: darkolivegreen;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
